@@ -1,5 +1,5 @@
 
-<div class="d-flex col-12 justify-content-around align-items-center bg-info text-dark p-2 mb-2">
+<div class="d-flex col-12 justify-content-around align-items-center bg-info text-dark p-3 mb-2">
     <a href="/" class="text-decoration-none text-dark ">Home</a>
     <a href="/products" class="text-decoration-none text-dark ">Products</a>
     <a href="/contact" class="text-decoration-none text-dark ">Contact</a>
