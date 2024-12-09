@@ -5,6 +5,7 @@
 @endsection
 
 @section("registerForm")
+    <h1>Register</h1>
     <form class="col-5 mb-3">
         <div class="form-group">
             <label for="name">Name</label>

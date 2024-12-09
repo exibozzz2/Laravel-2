@@ -13,13 +13,16 @@
         <div class="container d-flex justify-content-center align-items-center flex-column">
 
             @include("navigation")
-                @yield("textInfo")
                 <p>Current Time: {{ date("h:i:s") }}</p>
+                @yield("textInfo")
                 @yield("contactForm")
+                @yield("allProducts")
+                @yield("fiveNewestProducts")
+                @yield("allContacts")
                 @yield("loginForm")
-            @yield("registerForm")
-                @yield("productsList")
+                @yield("registerForm")
             @include("footer")
+
 
         </div>
     </body>

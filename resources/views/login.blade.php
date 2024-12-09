@@ -7,6 +7,7 @@
 
 
     @section("loginForm")
+        <h1>Login</h1>
         <form class="col-5 mb-3">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>

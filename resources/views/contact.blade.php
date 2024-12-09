@@ -6,6 +6,7 @@
 
 @section("contactForm")
     <form class="mb-3 mt-3">
+        <h1>Contact Us !</h1>
         <div class="form-group mb-1">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
