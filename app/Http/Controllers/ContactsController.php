@@ -18,4 +18,19 @@ class ContactsController extends Controller
         return view('allContacts', compact('allContacts'));
 
     }
+
+    public function sendContact(Request $request) {
+        $request->validate([
+            "email" => "required|string",
+            "subject" => "required|string|max:4",
+            "message" => "required|string",
+        ]);
+
+        ContactModel::create([
+            "email" => $request->get("email"),
+            "subject" => $request->get("subject"),
+            "message" => $request->get("message"),
+        ]);
+
+    }
 }

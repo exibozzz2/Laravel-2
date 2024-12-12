@@ -16,11 +16,16 @@
                 <p>Current Time: {{ date("h:i:s") }}</p>
                 @yield("textInfo")
                 @yield("contactForm")
-                @yield("allProducts")
-                @yield("fiveNewestProducts")
                 @yield("allContacts")
+
+                @yield("allProducts")
+                @yield("addProduct")
+                @yield("allProductsAdmin")
+                @yield("fiveNewestProducts")
+
                 @yield("loginForm")
                 @yield("registerForm")
+
             @include("footer")
 
 
